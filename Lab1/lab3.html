@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #graph {
+            background-color: whitesmoke;
+            position: absolute;
+            top: 10%;
+            left: 50%;
+        }
+
+        #graph article {
+            display: inline-block;
+        }
+
+        p {
+            padding-left: 30px;
+        }
+
+        div {
+            background-color: blue;
+            width: 30px;
+            height: 300px;
+            margin: 20px;
+        }
+
+        #bar1 {
+            width: 100%;
+            height: 70%;
+            background-color: white;
+            animation: changebar1;
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+        }
+
+        @keyframes changebar1 {
+            0% {
+                height: 100%;
+                background-color: white;
+            }
+
+            100% {
+                height: 70%;
+                background-color: white;
+            }
+
+
+        }
+
+        #bar2 {
+            width: 100%;
+            height: 60%;
+            background-color: white;
+            animation: changebar2;
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+        }
+
+        @keyframes changebar2 {
+            0% {
+                height: 100%;
+                background-color: white;
+            }
+
+            100% {
+                height: 60%;
+                background-color: white;
+            }
+        }
+            #bar3 {
+                width: 100%;
+                height: 20%;
+                background-color: white;
+                animation: changebar3;
+                animation-duration: 3s;
+                animation-iteration-count: 1;
+            }
+
+            @keyframes changebar3 {
+                0% {
+                    height: 100%;
+                    background-color: white;
+                }
+
+                100% {
+                    height: 20%;
+                    background-color: white;
+                }
+            }
+
+                #bar2 {
+                    width: 100%;
+                    height: 60%;
+                    background-color: white;
+                }
+
+                #bar3 {
+                    width: 100%;
+                    height: 20%;
+                    background-color: white;
+                }
+    </style>
+</head>
+
+<body>
+    <section id="graph">
+        <article>
+            <div>
+                <article id="bar1">
+
+                </article>
+            </div>
+            <P>
+                30%
+
+            </P>
+        </article>
+        <article>
+            <div>
+                <article id="bar2">
+
+                </article>
+            </div>
+            <P>
+                40%
+
+            </P>
+        </article>
+        <article>
+            <div>
+                <article id="bar3">
+
+                </article>
+            </div>
+            <P>
+                80%
+
+            </P>
+        </article>
+        <h1> Bar Plot</h1>
+    </section>
+</body>
+
+</html>
